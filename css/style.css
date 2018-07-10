@@ -1,0 +1,160 @@
+.bg_bar {
+  height: 55px;
+  object-fit: contain;
+  background-image: url("../images/pattern.png");
+}
+
+.container{
+  width: 360px;
+  margin: 0 auto;
+}
+
+.number{
+  margin-top: 14px;
+  float: left;
+}
+
+.Rectangle-18 {
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  background-color: #ed3124;
+}
+
+.layer {
+  font-family: 'ozone_bold';
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 0px 10px;
+}
+
+.cart{
+  margin: 12px 0px 11px 90px;
+  float: left;
+}
+
+.Go-to-Cart {
+  font-family: 'ozone_bold';
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.total {
+  float: right;
+  margin-top: 7px;
+}
+
+.Total {
+  font-family: 'ozone_bold';
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  color: #b6b6b6;
+  float: right;
+}
+
+.price{
+  width: 73px;
+  height: 30px;
+  font-family: 'ozone_bold';
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  float: right;
+  margin: -10px;
+}
+
+.paper {
+  width: 168px;
+  height: 273px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 10px 0 rgba(216, 221, 230, 0.3);
+  margin: 0px 0px 8px 8px;
+}
+
+.bg{
+  background-color: #f4f5f8;
+}
+
+.product-thumb {
+  width: 168px;
+  height: 168px;
+  float: right;
+}
+
+.Rectangle-2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  float: right;
+  margin: -28px 8px;
+}
+
+.size {
+  font-family: 'ozone_bold';
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Coffee {
+  font-family: 'ozone_bold';
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #9b9b9b;
+  margin-top: 177px;
+}
+
+.name {
+  width: 136px;
+  font-family: 'ozone_bold';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 0.89;
+  text-align: center;
+  color: #231f20;
+  margin-left: 16px;
+}
+
+.price_menu{
+  font-family: 'ozone_bold';
+  font-size: 30px;
+  font-weight: bold;
+  color: #ed3124;
+  margin-top: 6px;
+  margin-left: 12px;
+}
+
+.add-cart {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  float: right;
+  margin: -17px 6px;
+}
+
+.box{
+  width: 100px;
+}
