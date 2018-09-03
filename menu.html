@@ -7,33 +7,52 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title></title>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/common.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="js/bootstrap.min.js">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <div class="container bg">
+  <div class="container header_bar fixed-top">
+    <img src="images/history.png" srcset="images/history@2x.png 2x, images/history@3x.png 3x" class="history_h">
+    <img src="images/logo.png" srcset="images/logo@2x.png 2x, images/logo@3x.png 3x" class="logo">
+    <img src="images/cart.png" srcset="images/cart@2x.png 2x, images/cart@3x.png 3x" class="cart_main">
+    <div class="Rectangle"><span class="font_cart">99+</span></div>
+    </div>
+
+  <div class="container bg_menu">
+    <div class="menu_slide">
+      <div class="scrollmenu ">
+      <button type="submit" class="btn btn_slide text_slide">All</button>
+      <button type="submit" class="btn btn_slide text_slide">Coffee</button>
+      <button type="submit" class="btn btn_slide text_slide">Tea</button>
+      <button type="submit" class="btn btn_slide text_slide">Non Coffee</button>
+      <button type="submit" class="btn btn_slide text_slide">Bakery</button>
+    </div>
+    <div class="grad"></div>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 12px;">
+    <span class="red_name">"Coffee"</span>
+    <span class="found">Found 8 item</span>
+  </div>
+
     <div class="row">
       <div class="paper">
-        <img src="images/product-thumb.png" srcset="images/product-thumb@2x.png 2x,
-             images/product-thumb@3x.png 3x" class="product-thumb">
+        <img src="images/coffee1.png" class="product-thumb">
         <div class="Rectangle-2 size">L</div>
-        <div class="Coffee">M</div>
+        <div class="Coffee">Coffee</div>
         <div class="name">Iced Cafe Latte - L</div>
         <div class="price_menu">฿85.00</div>
-        <span class="add-cart"><img src="images/add-cart.png"
-     srcset="images/add-cart@2x.png 2x,
-             images/add-cart@3x.png 3x"
-     class="add-cart"></span>
+        <span class="add-cart"><img src="images/add-cart-hover.svg" class="add-cart"></span>
       </div>
       <div class="paper">
-        <img src="images/product-thumb.png" srcset="images/product-thumb@2x.png 2x,
-             images/product-thumb@3x.png 3x" class="product-thumb">
+        <img src="images/coffee2.png" class="product-thumb">
              <div class="Rectangle-2 size">M</div>
-             <div class="Coffee">M</div>
+             <div class="Coffee">Coffee</div>
              <div class="name">Iced Americano - M</div>
              <div class="price_menu">฿85.00</div>
              <span class="add-cart"><img src="images/add-cart.png"
@@ -43,26 +62,22 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="margin-bottom: 56px;">
       <div class="paper">
-        <img src="images/product-thumb.png" srcset="images/product-thumb@2x.png 2x,
-             images/product-thumb@3x.png 3x" class="product-thumb">
+        <img src="images/coffee3.png" class="product-thumb">
              <div class="Rectangle-2 size">M</div>
-             <div class="Coffee">M</div>
+             <div class="Coffee">Coffee</div>
              <div class="name">Iced Caramel Macchiato - M</div>
-             <div class="box">
                <div class="price_menu">฿85.00</div>
                <span class="add-cart"><img src="images/add-cart.png"
                  srcset="images/add-cart@2x.png 2x,
                     images/add-cart@3x.png 3x"
                     class="add-cart"></span>
-        </div>
       </div>
       <div class="paper">
-        <img src="images/product-thumb.png" srcset="images/product-thumb@2x.png 2x,
-             images/product-thumb@3x.png 3x" class="product-thumb">
+        <img src="images/coffee4.png" class="product-thumb">
              <div class="Rectangle-2 size">M</div>
-             <div class="Coffee">M</div>
+             <div class="Coffee">Coffee</div>
              <div class="name">Iced Cappuccino - M</div>
                <div class="price_menu">฿85.00</div>
                <span class="add-cart"><img src="images/add-cart.png"
@@ -71,22 +86,19 @@
                   class="add-cart"></span>
       </div>
     </div>
-
+    <img src="images/loading.svg" class="loading">
   </div>
 
-
-
-
-  <div class="container bg_bar">
+  <div class="container bg_bar fixed-bottom">
     <div class="number">
-      <div class="Rectangle-18"><span class="layer">3</span></div>
+      <div class="Rectangle-18 layer">3</div>
     </div>
     <div class="cart">
       <p class="Go-to-Cart">Go to Cart</p>
     </div>
     <div class="total">
       <span class="Total">Total</span>
-      <br><span class="price">255.00฿</span>
+      <br><span class="price">฿9,999.00</span>
     </div>
   </div>
 

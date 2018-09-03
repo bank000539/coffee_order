@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="328" height="6" viewBox="0 0 328 6">
+    <defs>
+        <path id="b" d="M0 4h328v192H0z"/>
+        <filter id="a" width="134.1%" height="158.3%" x="-17.1%" y="-20.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="16"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <path id="c" d="M0 0h328v3.967H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(0 -194)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <g transform="translate(0 2)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <path fill="#FFF" d="M4.97 3.967L9.94 0H0z" mask="url(#d)"/>
+            <path fill="#FFF" d="M14.91 3.967L19.878 0h-9.94zM24.848 3.967L29.818 0h-9.94zM34.788 3.967L39.758 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M44.727 3.967L49.697 0h-9.94zM54.667 3.967L59.637 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M64.606 3.967L69.576 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M74.545 3.967L79.515 0h-9.94zM84.485 3.967L89.455 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M94.424 3.967L99.394 0h-9.94zM104.364 3.967L109.334 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M114.303 3.967L119.273 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M124.242 3.967L129.212 0h-9.94zM134.182 3.967L139.152 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M144.121 3.967L149.091 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M154.06 3.967L159.03 0h-9.94zM164 3.967L168.97 0h-9.94zM173.94 3.967L178.91 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M183.879 3.967L188.849 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M193.818 3.967L198.788 0h-9.94zM203.758 3.967L208.728 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M213.697 3.967L218.667 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M223.636 3.967L228.606 0h-9.94zM233.576 3.967L238.546 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M243.515 3.967L248.485 0h-9.94zM253.455 3.967L258.425 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M263.394 3.967L268.364 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M273.333 3.967L278.303 0h-9.94zM283.273 3.967L288.243 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M293.212 3.967L298.182 0h-9.94zM303.152 3.967L308.122 0h-9.94z" mask="url(#d)"/>
+            <path fill="#FFF" d="M313.09 3.967L318.06 0h-9.939zM323.03 3.967L328 0h-9.94z" mask="url(#d)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <style>
+    .table {
+      overflow: auto;
+      position: relative;
+      z-index: 20;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @keyframes translating {
+      0%  { transform: translate(0, 0);}
+      25% { transform: translate(10px, 0);}
+      50% { transform: translate(0, 0);}
+      75% { transform: translate(10px, 0);}
+      100%{ transform: translate(0, 0);}
+    }
+
+    .hand_scroll{
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90%;
+      background: url("hand-scroll.png") center no-repeat;
+      background-size: 75px;
+      z-index: 15px;
+      background-position: 80% 66%;
+      animation: translating 1.5s linear infinite;
+    }
+
+    @media (max-width: 767px){
+      .img_table{
+      width: 1140px
+    }
+      .hand_scroll{
+        display: block;
+      }
+    }
+    @media (max-width: 575px){
+      .img_table {
+    width: 860px;
+    }}
+  </style>
+</head>
+
+<body>
+
+  <h2>Responsive Table</h2>
+  <p>If you have a table that is too wide, you can add a container element with overflow-x:auto around the table, and it will display a horizontal scroll bar when needed.</p>
+  <p>Resize the browser window to see the effect. Try to remove the div element and see what happens to the table.</p>
+  <div class="container">
+    <div class="row">
+    <div class="col-12 p-md-0 pl-3 pr-3">
+    <div class="table" id="table1">
+      <div class="hand_scroll" id="hand1"></div>
+      <div class="thumbnail img_table">
+      <img src="table.png">
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  $("#table1").scroll(function(){$('#hand1').fadeOut('fast');});
+  TweenMax.to(".hand_scroll",0.5,{x:20,yoyo:true,repeat:-1,ease:Power0.easeNone});
+</script>
+
+</html>

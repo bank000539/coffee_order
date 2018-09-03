@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="28" viewBox="0 0 94 28">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="92.5" height="26.5" x=".75" y=".75" fill-rule="nonzero" stroke="#9B9B9B" stroke-width="1.5" rx="13.25"/>
+        <g fill="#9B9B9B">
+            <text font-family="DBOzoneX-Bold, DB Ozone X" font-size="16" font-weight="bold" transform="translate(14 4)">
+                <tspan x="10" y="14">ADD MORE</tspan>
+            </text>
+            <text font-family="DBOzoneX-Medium, DB Ozone X" font-size="18" font-weight="400" transform="translate(14 4)">
+                <tspan x="0" y="14">+</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
